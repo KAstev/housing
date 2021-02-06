@@ -63,4 +63,4 @@ driver.quit()
 # save urls to csv
 url_dict = {'url': urls} 
 df = pd.DataFrame(url_dict)
-df.to_csv('urls.csv')
+df.to_csv('urls.csv', index=False)
