@@ -24,7 +24,10 @@ def eda(x, y):
   plt.scatter(x, y)
   plt.show()
 
-  
+df['BEDS'].value_counts()  
+
+plt.hist(df['BEDS'])
+plt.show()
 
 # Assuming Lasso or elastic ridge
 # Look for columns with many NAs or many of the same value
